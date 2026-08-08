@@ -1,12 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('PDF Download Page Loaded');
     
     const downloadBtns = document.querySelectorAll('.download-btn');
     
     downloadBtns.forEach((btn, index) => {
         btn.addEventListener('click', function(e) {
             const fileName = btn.getAttribute('href').split('/').pop();
-            console.log('Download PDF ' + (index + 1) + ' started: ' + fileName);
             
             // efek klik opacity
             btn.style.opacity = '0.7';
