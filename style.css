@@ -133,7 +133,7 @@ body {
 .pdf-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
-    animation: float 3s ease-in-out infinite;
+    /* animation: float 3s ease-in-out infinite; */
 }
 
 @keyframes float {
